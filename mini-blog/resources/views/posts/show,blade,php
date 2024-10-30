@@ -1,0 +1,10 @@
+@extends('layouts.app')
+
+@section('content')
+<div class="container">
+    <h1>{{ $post->title }}</h1>
+    <img src="{{ asset('storage/' . $post->image) }}" class="img-fluid mb-3" alt="{{ $post->title }}">
+    <p>{{ $post->body }}</p>
+    <a href="{{ route('posts.index') }}" class="btn btn-primary">Back to Posts</a>
+</div>
+@endsection

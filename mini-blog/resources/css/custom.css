@@ -1,0 +1,19 @@
+body {
+    background-color: #f7f9fc;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    font-family: 'Arial', sans-serif;
+}
+.card {
+    transition: transform 0.2s; /* Animation */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Zoom effect */
+}
+
